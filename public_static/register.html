@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DreamTeam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-reboot.css">
+    <script src="jQuery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="icon" href="images/fav-icon.png">
+    <script src="register.js"></script>
+    <style>
+        .partitioner{
+            border-right: solid thin silver;
+        }
+    </style>
+</head>
+<body>
+<nav class="fixer navbar header navbar-light bg-faded">
+<a class="navbar-brand" href="index.html" id="heading">
+    &nbsp;&nbsp;&nbsp;DreamTeam
+</a>
+</nav>
+
+    <ul class="fixer nav nav-tabs">
+        <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="getstarted.html">Get Started!</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link active" href="#">Register</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link disabled" title="Coming Soon!" href="#">League</a>
+        </li>
+    </ul>
+
+<div class="container cont">
+    <div class="row">
+        <div class="col-6" id="topper"></div>
+        <div class="col"></div>
+        <div class="col-3" id="purse"></div>
+    </div>
+    <div class="row" id="content">
+        <div class="col-2"></div>
+        <div class="col" id="baller">
+            <h1 class="heading2">DreamTeam</h1>
+            <br>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col"> <h3 class="regheading">Create Account</h3></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                <form class="form-yo" action="./account.html">
+                <div class="form-group row">
+                <label for="username" class="col-3 col-form-label uep">Username</label>
+                <div class="col">
+                <input class="form-control" type="text" placeholder="Start with '@'" id="username" required>
+                </div>
+
+                </div>
+                    <div class="form-group row">
+                        <label for="username" class="col-3 col-form-label uep">TeamName</label>
+                        <div class="col">
+                            <input class="form-control" type="text" placeholder="The World will know your team by this name" id="teamname" required>
+                        </div>
+
+                    </div>
+                <div class="form-group row">
+                <label for="email" class="col-3 col-form-label uep">Email</label>
+                <div class="col">
+                <input class="form-control" type="email" placeholder="We will mever share your e-mail with someone" id="email" required>
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="password" class="col-3 col-form-label uep">Password</label>
+                <div class="col">
+                <input class="form-control" type="password" id="password" required>
+                </div>
+                </div>
+                    <div class="form-group row">
+                        <label for="terms" class="col-7 col-form-label uep"><b>I agree to the terms and conditions</b>&nbsp;&nbsp;<input type="checkbox" id="terms" required></label>
+
+                        <div class="col-2"><button id="showtc" data-toggle="modal" data-whatever="@mdo" data-target="#exampleModal">Show</button></div>
+
+                    </div>
+                    <br>
+                <div class="row">
+                <div class="col-2"></div>
+                <div class="col-2">
+                    <a href="account.html"> <button type="submit" id="sub" class="btn btn-info">Register Now!</button>
+                    </a>
+                </div>
+                    <div class="col-4"></div>
+                    <div class="col-2">
+                        <button type="reset" class="btn btn-warning">Reset</button>
+                    </div>
+                </div>
+                </form >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <div class="col"> <h3 class="regheading">OR</h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <button type="button" class="facebook btn btn-primary disabled">Login with facebook<img src="images/fb_icon_325x325.png" height="25"></button>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-1">
+                    <div class="col"> <h3 class="regheading">OR</h3></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <button type="button" class="btn btn-danger disabled">Login with Google<img src="images/googleplus-logos-02.png" height="25"></button>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modaltitle">Terms and Conditions</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalfiller">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer">
+    &nbsp;&nbsp;&nbsp;&nbsp; <h3>Contact us</h3><br>
+    <div class="row">
+        <div class="col">
+            <span>Facebook</span>
+            <a href="https://www.facebook.com/esTaBlIsHeD.sInCe.1998"><img src="images/fb_icon_325x325.png" height="20"> </a>
+        </div>
+        <div class="col">
+            <span>Github</span>
+            <a href="https://github.com/y-2-j"><img src="images/github.png" height="20"></a>
+        </div>
+        <div class="col">
+            <span>Instagram</span>
+            <a href="https://www.instagram.com/kartiknarula27/?hl=en"><img src="images/instag.jpg" height="20"></a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        &copy; All rights to their respective owners.
+    </div>
+    <div class="footcenter">
+        This is a test site
+    </div>
+</div>
+</body>
+</html>

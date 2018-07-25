@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DreamTeam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-reboot.css">
+    <script src="jQuery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../public_static/layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="icon" href="../public_static/images/fav-icon.png">
+    <script src="myteam.js"></script></head>
+
+<body>
+
+<nav class="fixer navbar header navbar-light bg-faded">
+    <a class="navbar-brand" href="../public_static/index.html" id="heading">
+        &nbsp;&nbsp;&nbsp;DreamTeam
+    </a>
+</nav>
+
+<ul class="fixer nav nav-tabs">
+    <li class="nav-item ">
+        <a class="nav-link" href="../public_static/index.html">Home</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="../public_static/getstarted.html">Get Started!</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="../public_static/register.html">Register</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link disabled" title="Coming Soon!" href="#">League</a>
+    </li>
+</ul>
+
+<div class="container">
+    <div class="row">
+        <div class="col-1"></div>
+
+        <div class="col">
+            <div class="container box" id="workspace">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-3">
+                        <h1 class="heading2">DreamTeam</h1>
+                    </div>
+                    <div class="col"></div>
+                </div><br>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-3" id="team">
+
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col">
+                        <div class="headbox" id="playingXI">
+                            <div class="row">
+                                <div class="col"></div>
+                                <div class="col-4">
+                                    <h2 class="regheading">My Playing XI</h2>
+                                </div>
+                                <div class="col"></div>
+                            </div>
+                            <div class="row">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th></th><!-- Checkbox -->
+                                        <th colspan="2">Name</th>
+                                        <th colspan="2">Role</th>
+                                        <th></th><!--foreigner -->
+                                    </tr>
+                                    </thead>
+                                    <tbody id="eleven">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-5">
+                                <button type="button" id="final" class="btn btn-success" data-toggle="modal" data-whatever="@mdo">
+                                    <h3 class="regheading">Save my XI</h3>
+                                </button>
+
+                            </div>
+                        </div>
+                        <br>
+                        <div class="headbox" id="restSquad">
+                            <div class="row">
+                                <div class="col"></div>
+                                <div class="col-2">
+                                    <h2 class="regheading">Bench</h2>
+                                </div>
+                                <div class="col"></div>
+                            </div>
+                            <div class="row">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th></th><!-- Checkbox -->
+                                        <th colspan="2">Name</th>
+                                        <th colspan="2">Role</th>
+                                        <th></th><!--foreigner -->
+                                    </tr>
+                                    </thead>
+                                    <tbody id="others">
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-1"></div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-5">
+                        <a href="account.html">
+                            <button class="btn btn-warning" id="nextpg"><h3>Go back to Auction</h3></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-1"></div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modaltitle"></h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalfiller">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="footer">
+    &nbsp;&nbsp;&nbsp;&nbsp; <h3>Contact us</h3><br>
+    <div class="row">
+        <div class="col">
+            <span>Facebook</span>
+            <a href="https://www.facebook.com/esTaBlIsHeD.sInCe.1998"><img src="../public_static/images/fb_icon_325x325.png" height="20"> </a>
+        </div>
+        <div class="col">
+            <span>Github</span>
+            <a href="https://github.com/y-2-j"><img src="../public_static/images/github.png" height="20"></a>
+        </div>
+        <div class="col">
+            <span>Instagram</span>
+            <a href="https://www.instagram.com/kartiknarula27/?hl=en"><img src="../public_static/images/instag.jpg" height="20"></a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        &copy; All rights to their respective owners.
+    </div>
+    <div class="footcenter">
+        This is a test site
+    </div>
+</div>
+
+</body>
+</html>

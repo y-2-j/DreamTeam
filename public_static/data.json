@@ -1,0 +1,326 @@
+[
+  {
+    "role":1,
+    "id":0,
+    "name":"Virat Kohli",
+    "price": 10
+  },
+  {
+    "role":1,
+    "id":1,
+    "name":"Rohit Sharma",
+    "price": 10
+  },
+  {
+    "role":1,
+    "id":2,
+    "name":"Shikhar Dhawan",
+    "price": 9
+  },
+  {
+    "role":1,
+    "id":3,
+    "name":"Ajinkya Rahane",
+    "price": 8
+  },
+  {
+    "role":1,
+    "id":4,
+    "name":"Yuvraj Singh",
+    "price": 8
+  },
+  {
+    "role":1,
+    "id":5,
+    "name":"Kedar Jadhav",
+    "price": 7
+  },
+  {
+    "role":1,
+    "id":6,
+    "name":"Suresh Raina",
+    "price": 8
+  },
+  {
+    "role":1,
+    "id":7,
+    "name":"Gautam Gambhir",
+    "price": 7
+  },
+  {
+    "role":1,
+    "id":8,
+    "name":"Manish Pandey",
+    "price": 7
+  },
+  {
+    "role":1,
+    "id":9,
+    "name":"Manoj Tiwary",
+    "price": 6
+  },
+  {
+    "role":2,
+    "id":10,
+    "name":"AB de Villiers",
+    "price": 10
+  },
+  {
+    "role":2,
+    "id":11,
+    "name":"David Warner",
+    "price": 10
+  },
+  {
+    "role":2,
+    "id":12,
+    "name":"Steve Smith",
+    "price": 9
+  },
+  {
+    "role":2,
+    "id":13,
+    "name":"Aaron Finch",
+    "price": 7
+  },
+  {
+    "role":2,
+    "id":14,
+    "name":"Chris Gayle",
+    "price": 10
+  },
+  {
+    "role":2,
+    "id":15,
+    "name":"Eoin Morgan",
+    "price": 6
+  },
+  {
+    "role":2,
+    "id":16,
+    "name":"Kane Williamson",
+    "price": 6
+  },
+  {
+    "role":2,
+    "id":17,
+    "name":"Martin Guptil",
+    "price": 5
+  },
+  {
+    "role":3,
+    "id":18,
+    "name":"R Ashwin",
+    "price": 9
+  },
+  {
+    "role":3,
+    "id":19,
+    "name":"Bhuvaneshwar Kumar",
+    "price": 10
+  },
+  {
+    "role":3,
+    "id":20,
+    "name":"Jasprit Bumrah",
+    "price": 10
+  },
+  {
+    "role":3,
+    "id":21,
+    "name":"Mohd Shami",
+    "price": 6
+  },
+  {
+    "role":3,
+    "id":22,
+    "name":"Umesh Yadav",
+    "price": 5
+  },
+  {
+    "role":3,
+    "id":23,
+    "name":"Ishant Sharma",
+    "price": 4
+  },
+  {
+    "role":3,
+    "id":24,
+    "name":"Amit Mishra",
+    "price": 7
+  },
+  {
+    "role":4,
+    "id":25,
+    "name":"Sunil Narine",
+    "price": 10
+  },
+  {
+    "role":4,
+    "id":26,
+    "name":"Mitchell Starc",
+    "price": 7
+  },
+  {
+    "role":4,
+    "id":27,
+    "name":"Trent Boult",
+    "price": 6
+  },
+  {
+    "role":4,
+    "id":28,
+    "name":"Tymal Mills",
+    "price": 6
+  },
+  {
+    "role":4,
+    "id":29,
+    "name":"Imran Tahir",
+    "price": 8
+  },
+  {
+    "role":4,
+    "id":30,
+    "name":"Lasith Malinga",
+    "price": 7
+  },
+  {
+    "role":5,
+    "id":31,
+    "name":"Hardik Pandya",
+    "price": 9
+  },
+  {
+    "role":5,
+    "id":32,
+    "name":"Krunal Pandya",
+    "price": 8
+  },
+  {
+    "role":5,
+    "id":33,
+    "name":"Ravindra Jadeja",
+    "price": 7
+  },
+  {
+    "role":5,
+    "id":34,
+    "name":"Axar Patel",
+    "price": 7
+  },
+  {
+    "role":5,
+    "id":35,
+    "name":"Rajat Bhatia",
+    "price": 4
+  },
+  {
+    "role":5,
+    "id":36,
+    "name":"Rishi Dhawan",
+    "price": 3
+  },
+  {
+    "role":6,
+    "id":37,
+    "name":"Ben Stokes",
+    "price": 10
+  },
+
+  {
+    "role":6,
+    "id":38,
+    "name":"Dwayne Bravo",
+    "price": 7
+  },
+
+  {
+    "role":6,
+    "id":39,
+    "name":"Kieron Pollard",
+    "price": 7
+  },
+
+  {
+    "role":6,
+    "id":40,
+    "name":"JP Duminy",
+    "price": 6
+  },
+  {
+    "role":6,
+    "id":41,
+    "name":"James Faulkner",
+    "price": 5
+  },
+
+  {
+    "role":6,
+    "id":42,
+    "name":"Dan Christian",
+    "price": 5
+  },
+  {
+    "role":7,
+    "id":43,
+    "name":"MS Dhoni",
+    "price": 10
+  },
+  {
+    "role":7,
+    "id":44,
+    "name":"Dinesh Karthik",
+    "price": 7
+  },
+  {
+    "role":7,
+    "id":45,
+    "name":"Parthiv Patel",
+    "price": 6
+  },
+  {
+    "role":7,
+    "id":46,
+    "name":"Rishabh Pant",
+    "price": 7
+  },
+  {
+    "role":7,
+    "id":47,
+    "name":"Naman Ojha",
+    "price": 4
+  },
+  {
+    "role":8,
+    "id":48,
+    "name":"Quinton de Kock",
+    "price": 8
+  },
+  {
+    "role":8,
+    "id":49,
+    "name":"Jos Butler",
+    "price": 7
+  },
+  {
+    "role":8,
+    "id":50,
+    "name":"K Sangakarra",
+    "price": 9
+  },
+  {
+    "role":8,
+    "id":51,
+    "name":"Luke Ronchi",
+    "price": 4
+  },
+  {
+    "role":8,
+    "id":52,
+    "name":"Mathew Wade",
+    "price": 3
+  }
+
+
+]

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DreamTeam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.boots0000t0000rapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-reboot.css">
+    <script src="jQuery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../public_static/homepage.js"></script>
+    <link rel="stylesheet" href="../public_static/layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="icon" href="../public_static/images/fav-icon.png">
+    <!--<script src="common.js"></script>-->
+    <script src="./account.js"></script>
+</head>
+<body>
+<nav class="fixer navbar header navbar-light bg-faded">
+    <a class="navbar-brand" href="#" id="heading">
+        &nbsp;&nbsp;&nbsp;DreamTeam
+    </a>
+</nav>
+<ul class="fixer nav nav-tabs">
+    <li class="nav-item ">
+        <a class="nav-link" href="../public_static/index.html">Home</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="../public_static/getstarted.html">Get Started!</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="../public_static/register.html">Register</a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link disabled" title="Coming Soon!" href="#">League</a>
+    </li>
+</ul>
+<br>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <h4>    <strong id="username">Hola</strong> Choose your team wisely.
+    </h4>
+</div>
+<div class="container" id="outercont">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col" id="aaaa">
+            <div class="container box" id="workspace">
+                <div class="row">   <!-- Heading -->
+                    <div class="col"></div>
+                    <div class="col-3">
+                        <h1 class="heading2">DreamTeam</h1>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="regheading align-self-center">Players on auction!</h2><br>
+                        <div class="headbox">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th></th><!-- Checkbox -->
+                                    <th>Name</th>
+                                    <th>Role</th>
+                                    <th>Price</th>
+                                    <th></th><!--foreigner -->
+                                </tr>
+                                </thead>
+                                <tbody id="auctiontable">
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="col-1" id="spacer"></div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="regheading">My Team</h2>
+                            </div>
+                            <div class="col-8" id="balance"></div>
+                        </div>
+                        <br>
+                        <div class="headbox">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th></th><!-- Checkbox -->
+                                    <th>Name</th>
+                                    <th>Role</th>
+                                    <th>Price</th>
+                                    <th></th><!--foreigner -->
+                                </tr>
+                                </thead>
+                                <tbody id="myplayers">
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col">
+                        <a href="myteam.html">
+                            <button class="btn btn-success" id="nextpg"><h3>Save & customise your team</h3></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modaltitle"></h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalfiller">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br><br>
+<div id="footer">
+    &nbsp;&nbsp;&nbsp;&nbsp; <h3>Contact us</h3><br>
+    <div class="row">
+        <div class="col">
+            <span>Facebook</span>
+            <a href="https://www.facebook.com/esTaBlIsHeD.sInCe.1998"><img src="../public_static/images/fb_icon_325x325.png" height="20"> </a>
+        </div>
+        <div class="col">
+            <span>Github</span>
+            <a href="https://github.com/y-2-j"><img src="../public_static/images/github.png" height="20"></a>
+        </div>
+        <div class="col">
+            <span>Instagram</span>
+            <a href="https://www.instagram.com/kartiknarula27/?hl=en"><img src="../public_static/images/instag.jpg" height="20"></a>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        &copy; All rights to their respective owners.
+    </div>
+    <div class="footcenter">
+        This is a test site
+    </div>
+</div>
+
+</body>
+</html>
+
